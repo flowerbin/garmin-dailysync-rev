@@ -19,7 +19,7 @@ env:
   GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
   GARMIN_GLOBAL_USERNAME: ${{ secrets.GARMIN_GLOBAL_USERNAME }}
   GARMIN_GLOBAL_PASSWORD: ${{ secrets.GARMIN_GLOBAL_PASSWORD }}
-  AESKEY_DEFAULT: ${{ secrets.AESKEY_DEFAULT }}
+  AESKEY: ${{ secrets.AESKEY }}
 
 jobs:
   build:
