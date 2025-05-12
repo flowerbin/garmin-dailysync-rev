@@ -18,6 +18,7 @@ export const initDB = async () => {
 };
 
 export const getDB = async () =>  {
+    console.log('AESKEY:', AESKEY);
     return await open({
         filename: DB_FILE_PATH,
         driver: sqlite3.Database,
